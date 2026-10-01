@@ -19,7 +19,7 @@ WindowsでFPS向けに常時表示できる中心点レティクルを表示す�
 明示的に指定したい場合は次のコマンドを使ってください。
 
 ```powershell
-python Reticle_FPS.py --diameter 2 --color #00E33A
+python Reticle_FPS.py --diameter 2 --color "#00E33A"
 ```
 
 色やサイズを毎回指定するのが面倒な場合は、`Reticle_FPS.py` 冒頭の `DEFAULT_...` 定数を編集すれば既定値を変更できます。コマンドライン引数を渡した場合は、常にそちらが優先されます。
